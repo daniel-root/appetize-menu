@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageViewPrato"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/logo"
+        android:layout_marginStart="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxEntradasPrato"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Prato 1 Prato 1 Prato 1 Prato 1 Prato 1 Prato 1"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:ellipsize="end"
+        android:maxLines="1"/>
+
+    <!-- Texto para Valor e Preço -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valor:"
+            android:textColor="@color/black"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/valorTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R$ 20.00"
+            android:textColor="@color/black"
+            android:textSize="15sp"/>
+
+        <!-- Adicione mais TextViews para outros valores, se necessário -->
+
+        <!-- Texto para Tempo de Preparo -->
+
+        <TextView
+            android:id="@+id/tempoPreparoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tempo de Preparo 15 minutos"
+            android:textColor="@color/black"
+            android:textSize="10sp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Appetize Menu</string>
+    <string name="logo_description">Logo Appetize Menu</string>
+    <string name="welcome_to_portal">Bem-vindos ao Appetize Menu</string>
+    <string name="table_number">número da mesa</string>
+    <string name="login">Entrar</string>
+    <string name="welcome">Sejam bem-vindos</string>
+    <string name="token">"sua mesa é a "</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create_order">Realizar Pedido</string>
+</resources>
